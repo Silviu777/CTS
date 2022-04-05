@@ -1,3 +1,3 @@
-# CTS
+# Seminarii CTS
 
-Seminarii CTS, Obreajan Silviu - 1089
+Obreajan Silviu - 1089
