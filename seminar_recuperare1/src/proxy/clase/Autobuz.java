@@ -18,6 +18,6 @@ public class Autobuz implements MijlocTransport {
 
     @Override
     public void opresteInStatie() {
-        System.out.println("Autobuzul a oprit in statie cu un numar de " + nrCalatori + " calatori");
+        System.out.println("Autobuzul a oprit in statie cu un numar de " + nrCalatori + " calatori!");
     }
 }
