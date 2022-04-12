@@ -14,4 +14,5 @@ public abstract class DecoratorAbstract implements Printer {
     }
 
     public abstract void printeazaMesaj();
+
 }
