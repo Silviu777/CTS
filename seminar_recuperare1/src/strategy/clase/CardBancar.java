@@ -6,4 +6,5 @@ public class CardBancar implements ModPlata {
     public void plateste(float pret) {
         System.out.println("Platit cu cardul bancar, pret: " + pret);
     }
+
 }
