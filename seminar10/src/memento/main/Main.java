@@ -1,26 +1,26 @@
 package memento.main;
 
 import memento.clase.Autobuz;
-import memento.clase.Autogara;
+import memento.clase.Autobaza;
 import memento.clase.MementoAutobuz;
 
 public class Main {
     public static void main(String[] args) {
 
         Autobuz autobuz = new Autobuz("Marius", "BMW", 2019, 9);
-        Autogara autogara = new Autogara();
+        Autobaza autobaza = new Autobaza();
         MementoAutobuz mementoAutobuz = autobuz.createMemento();
 
-        autogara.addMemento(mementoAutobuz);
+        autobaza.addMemento(mementoAutobuz);
 
         autobuz.setSofer("John");
-        autogara.addMemento(autobuz.createMemento());
+        autobaza.addMemento(autobuz.createMemento());
 
         autobuz.setConsumMediu(8);
-        autogara.addMemento(autobuz.createMemento());
+        autobaza.addMemento(autobuz.createMemento());
 
         System.out.println(autobuz);
-        autobuz.setMementoAutobuz(autogara.getMementoAutobuz(0));
+        autobuz.setMementoAutobuz(autobaza.getMementoAutobuz(0));
         System.out.println("\nDupa preluare memento din autobaza: ");
         System.out.println(autobuz);
 

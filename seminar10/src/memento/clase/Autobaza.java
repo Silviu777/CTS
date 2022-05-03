@@ -3,11 +3,11 @@ package memento.clase;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Autogara {
+public class Autobaza {
 
     private List<MementoAutobuz> listaMemento;
 
-    public Autogara() {
+    public Autobaza() {
         this.listaMemento = new ArrayList<>();
     }
 
