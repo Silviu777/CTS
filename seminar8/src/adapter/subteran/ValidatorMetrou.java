@@ -9,6 +9,6 @@ public class ValidatorMetrou implements ValidatorSubteran {
 
     @Override
     public void valideazaAbonament() {
-        System.out.println("Abonament validat!");
+        System.out.println("Abonament validat subteran!");
     }
 }

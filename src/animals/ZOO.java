@@ -38,8 +38,9 @@ public class ZOO {
         animale.add(animal);
     }
 
-    public void hranesteAnimale(){
-        for(Animal a :animale)
-        ingrijitorZOO.hranesteAnimal(a,"iarba");
+    public void hranesteAnimale() {
+        for (Animal a : animale) {
+            ingrijitorZOO.hranesteAnimal(a, "iarba");
+        }
     }
 }

@@ -9,6 +9,7 @@ public class Main {
 
         Autobuz autobuz = new Autobuz();
         ValidatorMetrou metrou = new ValidatorMetrou();
+        metrou.valideazaAbonament();
 
         ValidatorAdapterObject adapterObject = new ValidatorAdapterObject(metrou);
         adapterObject.valideazaBilet();

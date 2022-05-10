@@ -2,7 +2,7 @@ package animals;
 
 public class main {
     public static void main(String[] args) {
-        ZOO zoo=new ZOO("zoo1",new IngrijitorZOO("Teo"));
+        ZOO zoo=new ZOO("zoo1", new IngrijitorZOO("Popescu"));
         Girafa g=new Girafa("girafa 1");
         Zebra z=new Zebra("zebra 1");
         Girafa g1=new Girafa("girafa 2");

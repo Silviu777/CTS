@@ -5,7 +5,8 @@ import observer.clase.Calator;
 import observer.clase.Observer;
 import observer.clase.Subiect;
 
-public class Main {
+public class
+Main {
     public static void main(String[] args) {
 
         Subiect autobuz = new Autobuz(133);
